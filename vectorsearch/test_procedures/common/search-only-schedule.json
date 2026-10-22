@@ -47,5 +47,6 @@
         {% endif %}
         "repetitions": {{ number_of_repetitions | default(1)}}
     },
-    "clients": {{ search_clients | default(1)}}
+    "clients": {{ search_clients | default(1)}},
+    "warmup-iterations": {{ search_warmup_iterations | default(0)}}
 }
